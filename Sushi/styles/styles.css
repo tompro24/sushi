@@ -1,0 +1,288 @@
+    body {
+        background-color: yellow;
+    }
+    
+    .logo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 93;
+        padding-bottom: 46;
+    }
+    
+    .buttonContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .btn-menu {
+        font-size: 42px;
+        color: #434142;
+        font-weight: 400;
+        font-family: "Montserrat";
+        margin-left: 15;
+        margin-right: 15;
+    }
+    
+    .image1 {
+        width: 669px;
+        height: 669px;
+        border-radius: 50%;
+        background-color: #ff7314;
+    }
+    
+    .image1 img {
+        width: 659px;
+        height: 659px;
+        border-radius: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .mainContainer {
+        width: 100%;
+        height: auto;
+        font-size: 38px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        background-color: #ff7314;
+    }
+    
+    .mainContainer p {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .mainContainer h3 {
+        width: 528px;
+        height: 152px;
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        text-align: center;
+        background-color: #ff7314;
+        border-radius: 90px;
+        margin-right: 455px;
+        margin-left: 455px;
+        padding-top: 40px;
+    }
+    
+    .contContainer {
+        width: 100%;
+        height: auto;
+        font-size: 60px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        background-color: #ff7314;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .contContainer p {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+    }
+    
+    .contContainer p img {
+        width: 314px;
+        height: 314px;
+        border-radius: 50%;
+        background-color: #ff7314;
+    }
+    
+    .nextContainer {
+        width: 100%;
+        height: auto;
+        color: white;
+        background-color: #ff7314;
+    }
+    
+    .nextContainer p {
+        width: 981px;
+        height: 334px;
+        font-size: 38px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .nextContainer h2 {
+        font-size: 75px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        text-align: center;
+    }
+    
+    .photo img {
+        width: 100%;
+        height: 1400px;
+    }
+    
+    .menu {
+        font-size: 100px;
+        color: #fefefe;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        text-align: center;
+    }
+    
+    .menuList {
+        width: auto;
+        display: inline;
+        display: grid;
+        grid-template: "list-1 list-1" "list-1 list-1";
+        justify-content: center;
+        align-content: center;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .list-1 {
+        width: 458px;
+        height: 523px;
+        background-color: white;
+        outline: 5px dashed #ff7314;
+        outline-offset: -8px;
+    }
+    
+    .list-1 h1 {
+        margin-left: 30px;
+        font-size: 44px;
+        color: #ff7315;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+    }
+    
+    .list-1 h3 {
+        font-size: 24px;
+        color: #ff7315;
+        font-weight: 800;
+        font-family: "Montserrat";
+        padding-bottom: 0px;
+        margin-left: 20px;
+    }
+    
+    .list-1 p {
+        width: 120px;
+        height: 17px;
+        font-size: 18px;
+        color: #ff7315;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        margin-left: 20px;
+    }
+    
+    .list-1 span {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .image2 {
+        width: 950px;
+        height: 950px;
+        border-radius: 50%;
+        background-color: #ff7314;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .image2 img {
+        width: 940px;
+        height: 940px;
+        border-radius: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    
+    .text-social {
+        display: inline;
+        display: grid;
+        grid-template: "text-social" "social";
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .text-social p {
+        width: 965px;
+        height: 153px;
+        font-size: 38px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .social {
+        font-size: 60px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template: "about1 about2 about2";
+        justify-items: center;
+    }
+    
+    .footer h3 {
+        font-size: 58px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        margin-left: 30px;
+    }
+    
+    .footer ul {
+        width: 239px;
+        height: 166px;
+        font-size: 38px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        display: block;
+    }
+    
+    .footer ul li {
+        list-style-type: none;
+        padding-bottom: 10px;
+    }
+    
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 58px;
+        line-height: 61px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Covered By Your Grace";
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ff7314;
+        margin-top: 140px;
+    }
